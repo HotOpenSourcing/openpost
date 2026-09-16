@@ -1,7 +1,4 @@
 # Environment files
-.env
-.env.local
-.env.*
 !.env.example
 *.env
 
@@ -28,7 +25,6 @@ apps/server/cmd/openpost/public/**
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -128,3 +124,4 @@ apps/marketing/static/og/
 /apps/docs/public/assets.previous/
 /apps/marketing/static/.assets.staged-*/
 /apps/marketing/static/assets.previous/
+config.bat
